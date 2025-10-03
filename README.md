@@ -21,8 +21,10 @@ The goal of this project is to provide an efficient hardware implementation suit
    git clone https://github.com/your-username/ascon128-aead-sv.git
    cd ascon128-aead-sv
 2.Compile and run with Icarus Verilog (or another SystemVerilog simulator):
-   iverilog -g2012 -o ascon_tb tb/tb_ascon.sv src/*.sv
-   vvp ascon_tb
+
+bash
+iverilog -g2012 -o ascon_tb tb/tb_ascon.sv src/*.sv
+vvp ascon_tb
 3.Check results in the console or waveform (.vcd).
 
 FPGA Synthesis
@@ -35,6 +37,8 @@ Key size: 128 bits
 Nonce: 128 bits
 
 Tag size: 128 bits
+
+
 
 References
 ASCON Official Website
