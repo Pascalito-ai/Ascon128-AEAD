@@ -20,12 +20,11 @@ The goal of this project is to provide an efficient hardware implementation suit
    ```bash
    git clone https://github.com/your-username/ascon128-aead-sv.git
    cd ascon128-aead-sv
-Compile and run with Icarus Verilog (or another SystemVerilog simulator):
-
+2.Compile and run with Icarus Verilog (or another SystemVerilog simulator):
    ```bash
    iverilog -g2012 -o ascon_tb tb/tb_ascon.sv src/*.sv
    vvp ascon_tb
-Check results in the console or waveform (.vcd).
+3.Check results in the console or waveform (.vcd).
 
 FPGA Synthesis
 The design can be synthesized with tools like Xilinx Vivado or Intel Quartus.
