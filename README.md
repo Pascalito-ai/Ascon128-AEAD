@@ -22,9 +22,9 @@ The goal of this project is to provide an efficient hardware implementation suit
    cd ascon128-aead-sv
 Compile and run with Icarus Verilog (or another SystemVerilog simulator):
 
-```bash
-iverilog -g2012 -o ascon_tb tb/tb_ascon.sv src/*.sv
-vvp ascon_tb
+   ```bash
+   iverilog -g2012 -o ascon_tb tb/tb_ascon.sv src/*.sv
+   vvp ascon_tb
 Check results in the console or waveform (.vcd).
 
 FPGA Synthesis
